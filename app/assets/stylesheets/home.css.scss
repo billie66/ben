@@ -1,0 +1,25 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#subscribe {
+  li {
+    position: relative;
+    margin-left: 8px;
+    font-size: 12px;
+  }
+  a {
+    display: block;
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@import "compass";
+@import "icons/*.png";
+@include all-icons-sprites;
+
+ul.horizontal {
+  @include horizontal-list;
+}
+
